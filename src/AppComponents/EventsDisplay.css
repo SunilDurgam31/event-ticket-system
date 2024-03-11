@@ -1,0 +1,105 @@
+dashboard-container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 200px; /* Fixed width sidebar */
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.content {
+    flex: 1; /* Take remaining space */
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.sidebar {
+    width: 200px; /* Adjust the width as needed */
+    height: 100%; /* Set the sidebar height to occupy the full height of the container */
+    background-color: #f0f0f0; /* Sidebar background color */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+  }
+  
+  .sidebar button {
+    margin-bottom: 10px; /* Add some space between buttons */
+  }
+  
+  .content {
+    flex: 1; /* Allow content to expand and fill remaining space */
+    padding: 20px; /* Add padding for content */
+  }
+
+
+
+
+
+body {
+  margin: 0;
+  background-image: url("");
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-color:black !important;
+}
+.nav-link{
+  color: white !important;
+}
+.navbar-bar{
+    color: white !important;
+}
+.navbar-brand{
+  color: white !important;
+ 
+}
+.navbar-nav{
+  margin-left: auto !important;
+}
+.Search-bar-container{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+.logo{
+  color: azure;
+}
+.nav-links{
+  
+  color: white;
+  
+}
+
+
